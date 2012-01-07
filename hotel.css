@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+@font-face{
+  font-family: 'Fontin';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Fontin'), url('./font/fontin.otf') format('opentype')
+}
+
+h1 {
+  font-family: 'Fontin',arial,serif;
+  font-size: 43px;
+  color: #54311A;
+  font-weight: normal;
+}
+
+.logo {
+  width: 145px;
+}
+
+footer {
+  text-align: center;
+}
